@@ -19,11 +19,11 @@ oclif example Hello World CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g y
+$ npm install -g javauc
 $ javauc COMMAND
 running command...
 $ javauc (--version)
-y/2.0.0 win32-x64 node-v16.10.0
+javauc/2.0.0 win32-x64 node-v16.10.0
 $ javauc --help [COMMAND]
 USAGE
   $ javauc COMMAND
@@ -44,6 +44,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`javauc compile [FOLDER]`](#javauc-compile-folder)
 * [`javauc hello PERSON`](#javauc-hello-person)
 * [`javauc hello world`](#javauc-hello-world)
 * [`javauc help [COMMAND]`](#javauc-help-command)
@@ -56,6 +57,23 @@ USAGE
 * [`javauc plugins:uninstall PLUGIN...`](#javauc-pluginsuninstall-plugin-1)
 * [`javauc plugins:uninstall PLUGIN...`](#javauc-pluginsuninstall-plugin-2)
 * [`javauc plugins update`](#javauc-plugins-update)
+
+## `javauc compile [FOLDER]`
+
+automatically compiles java files at given path
+
+```
+USAGE
+  $ javauc compile [FOLDER]
+
+DESCRIPTION
+  automatically compiles java files at given path
+
+EXAMPLES
+  $ javauc compile "C:/Users/test-user/Documents/java-folder"
+```
+
+_See code: [dist/commands/compile.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.0.0/dist/commands/compile.ts)_
 
 ## `javauc hello PERSON`
 

@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "javauc",
   "version": "2.0.0",
   "description": "Java auto compiler",
   "author": "Rohan Ramakrishnan @rohan-ramakrishnan",
@@ -20,7 +20,6 @@
     "@oclif/core": "^1.13.10",
     "@oclif/plugin-help": "^5",
     "@oclif/plugin-plugins": "^2.0.1",
-    "chalk": "^5.0.1",
     "chokidar": "^3.5.3",
     "picocolors": "^1.0.0"
   },
