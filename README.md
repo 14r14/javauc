@@ -23,7 +23,7 @@ $ npm install -g y
 $ javauc COMMAND
 running command...
 $ javauc (--version)
-y/1.0.0 win32-x64 node-v16.10.0
+y/2.0.0 win32-x64 node-v16.10.0
 $ javauc --help [COMMAND]
 USAGE
   $ javauc COMMAND
@@ -79,7 +79,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v1.0.0/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.0.0/dist/commands/hello/index.ts)_
 
 ## `javauc hello world`
 
