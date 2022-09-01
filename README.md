@@ -58,6 +58,9 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`javauc compile [FOLDER]`](#javauc-compile-folder)
+* [`javauc hello PERSON`](#javauc-hello-person)
+* [`javauc hello world`](#javauc-hello-world)
 * [`javauc help [COMMAND]`](#javauc-help-command)
 * [`javauc plugins`](#javauc-plugins)
 * [`javauc plugins:install PLUGIN...`](#javauc-pluginsinstall-plugin)
@@ -68,6 +71,63 @@ USAGE
 * [`javauc plugins:uninstall PLUGIN...`](#javauc-pluginsuninstall-plugin-1)
 * [`javauc plugins:uninstall PLUGIN...`](#javauc-pluginsuninstall-plugin-2)
 * [`javauc plugins update`](#javauc-plugins-update)
+
+## `javauc compile [FOLDER]`
+
+automatically compiles java files at given path
+
+```
+USAGE
+  $ javauc compile [FOLDER]
+
+DESCRIPTION
+  automatically compiles java files at given path
+
+EXAMPLES
+  $ javauc compile "C:/Users/test-user/Documents/java-folder"
+```
+
+_See code: [dist/commands/compile.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.0.1/dist/commands/compile.ts)_
+
+## `javauc hello PERSON`
+
+Say hello
+
+```
+USAGE
+  $ javauc hello [PERSON] -f <value>
+
+ARGUMENTS
+  PERSON  Person to say hello to
+
+FLAGS
+  -f, --from=<value>  (required) Whom is saying hello
+
+DESCRIPTION
+  Say hello
+
+EXAMPLES
+  $ oex hello friend --from oclif
+  hello friend from oclif! (./src/commands/hello/index.ts)
+```
+
+_See code: [dist/commands/hello/index.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.0.1/dist/commands/hello/index.ts)_
+
+## `javauc hello world`
+
+Say hello world
+
+```
+USAGE
+  $ javauc hello world
+
+DESCRIPTION
+  Say hello world
+
+EXAMPLES
+  $ oex hello world
+  hello world! (./src/commands/hello/world.ts)
+```
 
 ## `javauc help [COMMAND]`
 
