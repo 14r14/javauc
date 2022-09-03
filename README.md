@@ -59,8 +59,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`javauc compile [FOLDER]`](#javauc-compile-folder)
-* [`javauc hello PERSON`](#javauc-hello-person)
-* [`javauc hello world`](#javauc-hello-world)
+* [`javauc create-source-file [FOLDER] [FILENAME]`](#javauc-create-source-file-folder-filename)
 * [`javauc help [COMMAND]`](#javauc-help-command)
 * [`javauc plugins`](#javauc-plugins)
 * [`javauc plugins:install PLUGIN...`](#javauc-pluginsinstall-plugin)
@@ -89,45 +88,25 @@ EXAMPLES
 
 _See code: [dist/commands/compile.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.1.0/dist/commands/compile.ts)_
 
-## `javauc hello PERSON`
+## `javauc create-source-file [FOLDER] [FILENAME]`
 
-Say hello
+creates a java source file
 
 ```
 USAGE
-  $ javauc hello [PERSON] -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
+  $ javauc create-source-file [FOLDER] [FILENAME] [-c]
 
 FLAGS
-  -f, --from=<value>  (required) Whom is saying hello
+  -c, --includeConstructor
 
 DESCRIPTION
-  Say hello
+  creates a java source file
 
 EXAMPLES
-  $ oex hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
+  $ javauc create-source-file
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.1.0/dist/commands/hello/index.ts)_
-
-## `javauc hello world`
-
-Say hello world
-
-```
-USAGE
-  $ javauc hello world
-
-DESCRIPTION
-  Say hello world
-
-EXAMPLES
-  $ oex hello world
-  hello world! (./src/commands/hello/world.ts)
-```
+_See code: [dist/commands/create-source-file.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.1.0/dist/commands/create-source-file.ts)_
 
 ## `javauc help [COMMAND]`
 
