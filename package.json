@@ -1,5 +1,5 @@
 {
-  "name": "javauc",
+  "name": "@rohan-ramakrishnan/javauc",
   "version": "2.1.0",
   "description": "Java auto compiler",
   "author": "Rohan Ramakrishnan @rohan-ramakrishnan",
@@ -9,7 +9,7 @@
   "homepage": "https://github.com/rohan-ramakrishnan/javauc",
   "license": "MIT",
   "main": "dist/index.js",
-  "repository": "rohan-ramakrishnan/javauc",
+  "repository": "https://github.com/rohan-ramakrishnan/javauc.git",
   "files": [
     "/bin",
     "/dist",
