@@ -11,12 +11,6 @@ A powerful Java auto compiler.
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
 # Usage
 <!-- usage -->
 ```sh-session
@@ -33,22 +27,8 @@ USAGE
 <!-- usagestop -->
 ```sh-session
 $ npm install -g javauc
-$ javauc COMMAND
-running command...
-$ javauc (--version)
-javauc/2.0.0 win32-x64 node-v16.10.0
-$ javauc --help [COMMAND]
-USAGE
-  $ javauc COMMAND
-...
-```
-<!-- usagestop -->
-```sh-session
-$ npm install -g javauc
 $ javauc compile "C:/Users/test-user/Documents/java-folder"
-Watching for changes in **C:\Users\rohan\Documents\Learning Java**
-$ javauc --version
-javauc/2.0.0 win32-x64 node-v16.13.1
+Watching for changes in **C:/Users/test-user/Documents/java-folder**
 $ javauc --help [COMMAND]
 USAGE
   $ javauc COMMAND
@@ -102,8 +82,25 @@ DESCRIPTION
   creates a java source file
 
 EXAMPLES
-  $ javauc create-source-file
+  $ javauc create-source-file "C:/Users/test-user/Documents/java-folder" TestingJavauc [-c]
 ```
+
+### `javauc create-source-file [FOLDER] "[MULTIPLE COMMA-DELIMITED FILENAMES]"`
+
+creates multiple java source files. Quotes around comma-delimited list are required.
+
+```
+USAGE
+  $ javauc create-source-file [FOLDER] "[COMMA-DELIMITED FILENAMES]" [-c]
+
+FLAGS
+  -c, --includeConstructor
+
+DESCRIPTION
+  creates multiple java source files
+
+EXAMPLES
+  $ javauc create-source-file "C:/Users/test-user/Documents/java-folder" "TestingJavauc,JavaucTest" [-c]
 
 _See code: [dist/commands/create-source-file.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.1.0/dist/commands/create-source-file.ts)_
 
