@@ -25,7 +25,7 @@ $ npm install -g javauc
 $ javauc COMMAND
 running command...
 $ javauc (--version)
-javauc/2.0.1 win32-x64 node-v16.10.0
+javauc/2.1.0 win32-x64 node-v16.10.0
 $ javauc --help [COMMAND]
 USAGE
   $ javauc COMMAND
@@ -87,7 +87,7 @@ EXAMPLES
   $ javauc compile "C:/Users/test-user/Documents/java-folder"
 ```
 
-_See code: [dist/commands/compile.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.0.1/dist/commands/compile.ts)_
+_See code: [dist/commands/compile.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.1.0/dist/commands/compile.ts)_
 
 ## `javauc hello PERSON`
 
@@ -111,7 +111,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [dist/commands/hello/index.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.0.1/dist/commands/hello/index.ts)_
+_See code: [dist/commands/hello/index.ts](https://github.com/rohan-ramakrishnan/javauc/blob/v2.1.0/dist/commands/hello/index.ts)_
 
 ## `javauc hello world`
 

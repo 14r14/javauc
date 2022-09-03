@@ -1,6 +1,6 @@
 {
   "name": "javauc",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Java auto compiler",
   "author": "Rohan Ramakrishnan @rohan-ramakrishnan",
   "bin": {
