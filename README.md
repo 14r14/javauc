@@ -4,9 +4,8 @@ Java Auto Compiler CLI
 A powerful Java auto compiler.
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/oclif-hello-world.svg)](https://www.npmjs.com/package/javauc)
-[![Downloads/week](https://img.shields.io/npm/dw/oclif-hello-world.svg)](https://www.npmjs.com/package/javauc)
-[![License](https://img.shields.io/npm/l/oclif-hello-world.svg)](https://github.com/oclif/hello-world/blob/main/package.json)
+[![Version](https://img.shields.io/npm/v/javauc)](https://npmjs.com/package/javauc)
+[![Downloads/week](https://img.shields.io/npm/dw/javauc)](https://www.npmjs.com/package/javauc)
 
 <!-- toc -->
 * [Usage](#usage)
