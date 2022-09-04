@@ -20,11 +20,11 @@ A powerful Java auto compiler.
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @rohan-ramakrishnan/javauc
+$ npm install -g javauc
 $ javauc COMMAND
 running command...
 $ javauc (--version)
-@rohan-ramakrishnan/javauc/2.1.1 win32-x64 node-v16.10.0
+javauc/2.1.1 win32-x64 node-v16.10.0
 $ javauc --help [COMMAND]
 USAGE
   $ javauc COMMAND
